@@ -1,0 +1,16 @@
+{
+  "name": "dhan-ultimate-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Universal Dhan market-data backend for multiple PWAs and trading terminals.",
+  "main": "server.js",
+  "scripts": {"start":"node server.js"},
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "otplib": "^12.0.1",
+    "web-push": "^3.6.7",
+    "ws": "^8.18.3"
+  }
+}
